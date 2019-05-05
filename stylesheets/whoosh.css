@@ -1,0 +1,334 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(/images/whoosh/grid-texture.png) 0 0 repeat;
+  font-family: 'Avenir LT W01 35 Light', sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 18px;
+  -webkit-text-size-adjust: none;
+}
+
+p {
+  margin: 0;
+  text-indent: 1em;
+}
+p:first-child,
+p.first-child,
+.no-indent {
+  text-indent: 0;
+}
+p.margin-top {
+  margin-top: 1em;
+}
+
+nav {
+  display: block;
+  overflow: hidden;
+  font-family: 'Avenir LT W01 35 Light';
+  font-size: 20px;
+  font-weight: normal;
+
+  -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+  nav a {
+    background: #fff;
+    border-top: 4px solid #666;
+    border-right: 1px solid #ebebeb;
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+    display: block;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    width: 86px;
+  }
+  nav a:hover {
+    background: #fafafa;
+  }
+  nav a.active {
+    background: #fafafa;
+  }
+  nav a:last-child {
+    border-right: none;
+  }
+
+article {
+  display: block;
+  position: relative;
+  margin: 0;
+  width: 600px;
+  height: 450px;
+
+  -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+  article header {
+    background: #fff;
+    border-bottom: 3px solid #000;
+    display: block;
+    height: 63px;
+    padding-top: 43px;
+    position: relative;
+    text-align: center;
+    font-family: 'Avenir LT W01 35 Light', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+  }
+    article header h2 {
+      border-top: 3px solid #666;
+      left: 50%;
+      margin: 0;
+      margin-left: -21px;
+      padding-top: 7px;
+      position: absolute;
+      top: 0;
+      width: 42px;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1;
+    }
+    article header h1 {
+      font-size: 20px;
+      margin: 0;
+      font-family: 'Avenir LT W01 85 Heavy', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  article .body {
+    display: block;
+    position: relative;
+  }
+  article .body p {
+    margin-right: 1em;
+  }
+  article .body.introduction {
+    font-size: 21px;
+    line-height: 30px;
+    padding: 36px 100px;
+    text-align: center;
+  }
+  article .body.introduction p {
+    margin-right: 0;
+  }
+    article .body p.small {
+      color: #fff;
+      font-size: 15px;
+      font-family: 'Avenir LT W01 35 Light', sans-serif;
+    }
+    article .body a {
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Avenir LT W01 35 Light', sans-serif;
+    }
+    article .body a:hover {
+      text-decoration: underline;
+    }
+  article figure {
+    display: block;
+    position: relative;
+    margin: 0;
+  }
+  article figure img {
+    display: block;
+    position: relative;
+  }
+  .float-left {
+    float: left;
+  }
+  .centred {
+    text-align: center;
+  }
+  .centred img {
+    margin: 0 auto;
+  }
+  .normal-padding {
+    padding: 17px;
+  }
+  .fat-padding {
+    padding: 0 41px;
+  }
+
+.more-info {
+  display: block;
+  position: relative;
+  border-top: 3px solid #000;
+}
+  .more-info header {
+    display: block;
+    position: absolute;
+    width: 352px;
+    top: -41px;
+    left: 50%;
+    margin-left: -176px;
+    height: 38px;
+    background: #000 url(/images/whoosh/more-info-arrow.png) 95% 50% no-repeat;
+    cursor: pointer; cursor; hand;
+  }
+  .more-info header:hover {
+    background-color: #000;
+  }
+    .more-info header h1 {
+      font-size: 16px;
+      line-height: 1;
+      color: #fff;
+      font-family: 'Avenir LT W01 35 Light', sans-serif;
+      font-weight: normal;
+      margin: 11px 20px;
+    }
+  .more-info section {
+    display: block;
+    position: relative;
+    margin: 0;
+    background: #fff;
+  }
+    .more-info section .content {
+      display: block;
+      position: relative;
+      padding: 60px 30px;
+      margin: 0 auto;
+      width: 900px;
+    }
+  .more-info section.tech-stuff {
+    background: #e6e6e6;
+  }
+  .more-info section.other-stuff {
+    background: #999;
+  }
+
+#back-to-projects {
+  display: block;
+  background: url(/images/whoosh/back-to-projects.png) no-repeat;
+  width: 241px;
+  height: 52px;
+  overflow: hidden;
+  text-indent: -999px;
+}
+
+.article-1 .tag-border-top-color,
+.article-1.tag-border-top-color { border-top-color: #00bfc8 }
+.article-1 .tag-color,
+.article-1.tag-color { color: #00bfc8 }
+.article-1 .tag-background-color,
+.article-1.tag-background-color { background-color: #00bfc8 }
+
+.article-2 .tag-border-top-color,
+.article-2.tag-border-top-color { border-top-color: #00d2a9 }
+.article-2 .tag-color,
+.article-2.tag-color { color: #00d2a9 }
+.article-2 .tag-background-color,
+.article-2.tag-background-color { background-color: #00d2a9 }
+
+.article-3 .tag-border-top-color,
+.article-3.tag-border-top-color { border-top-color: #8dd96d }
+.article-3 .tag-color,
+.article-3.tag-color { color: #8dd96d }
+.article-3 .tag-background-color,
+.article-3.tag-background-color { background-color: #8dd96d }
+
+.article-4 .tag-border-top-color,
+.article-4.tag-border-top-color { border-top-color: #bcdd59 }
+.article-4 .tag-color,
+.article-4.tag-color { color: #bcdd59 }
+.article-4 .tag-background-color,
+.article-4.tag-background-color { background-color: #bcdd59 }
+
+/* Layout */
+
+body {
+  display: block;
+  position: relative;
+  width: 3074px;
+  height: 3000px;
+}
+
+nav {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  margin-left: -172px;
+  z-index: 999;
+}
+
+#back-to-projects {
+  position: fixed;
+  left: -6px;
+  top: 28px;
+}
+
+#how-we-scroll {
+  position: absolute;
+  left: 1200px;
+  top: 160px;
+}
+#vertical-scrolling {
+  position: absolute;
+  left: 2294px;
+  top: 1199px;
+}
+#horizontal-scrolling {
+  position: absolute;
+  left: 1200px;
+  top: 2418px;
+}
+#experimental-scrolling {
+  position: absolute;
+  left: 183px;
+  top: 1089px;
+}
+
+.more-info {
+  display: none;
+}
+
+#line-1-2 {
+  position: absolute;
+  background: url(/images/whoosh/line-1-2.png);
+  width: 1048px;
+  height: 732px;
+  left: 1654px;
+  top: 440px;
+}
+#line-2-3 {
+  position: absolute;
+  background: url(/images/whoosh/line-2-3.png);
+  width: 771px;
+  height: 973px;
+  left: 1504px;
+  top: 1423px;
+}
+#line-3-4 {
+  position: absolute;
+  background: url(/images/whoosh/line-3-4.png);
+  width: 693px;
+  height: 1118px;
+  left: 482px;
+  top: 1527px;
+}
+#line-4-1 {
+  position: absolute;
+  background: url(/images/whoosh/line-4-1.png);
+  width: 910px;
+  height: 712px;
+  left: 265px;
+  top: 363px;
+}
+
+/* Arff */
+
+#arff {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
